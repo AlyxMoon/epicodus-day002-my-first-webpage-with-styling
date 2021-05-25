@@ -1,11 +1,20 @@
 
 /* Layout */
+ul {
+  list-style: none;
+}
 
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 300px;
+}
 
 /* Typography */
 
-
 /* Media */
 img {
-  width: 300px;
+  width: 100%;
 }
