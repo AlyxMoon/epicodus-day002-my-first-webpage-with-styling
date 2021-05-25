@@ -2,19 +2,39 @@
 /* Layout */
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 li {
   display: flex;
+  flex-direction: row;
+  margin: 0px auto 30px;
+  width: 600px;
+}
+
+li div {
+  display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  width: 300px;
+li p {
+  margin-left: 15px;
 }
 
 /* Typography */
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  color: rgb(67, 67, 67);
+  text-align: center;
+  text-shadow: 0 0 10px yellow, 0 0 15px red;
+}
 
 /* Media */
 img {
-  width: 100%;
+  width: 300px;
 }
+
