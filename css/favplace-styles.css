@@ -1,5 +1,9 @@
 
 /* Layout */
+body {
+  background-color: #292929;
+}
+
 ul {
   list-style: none;
   padding: 0px;
@@ -9,7 +13,19 @@ li {
   display: flex;
   flex-direction: row;
   margin: 0px auto 30px;
+  padding: 20px 10px;
   width: 600px;
+
+  border: 1px solid black;
+  background-color: #EEE;
+
+  transition-duration: 1.5s;
+}
+
+li:hover {
+  transform: rotate(180deg);
+
+  transition-duration: 0.5s;
 }
 
 li div {
@@ -28,13 +44,34 @@ body {
 }
 
 h1 {
-  color: rgb(67, 67, 67);
+  color: white;
   text-align: center;
-  text-shadow: 0 0 10px yellow, 0 0 15px red;
+  text-shadow: 0 0 4px blue;
+}
+
+h2 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #3FB0AC;
+  text-decoration: none;
+
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: pink;
 }
 
 /* Media */
 img {
   width: 300px;
+
+  border: 2px solid black;
+  border-radius: 100vw;
+  box-shadow: 0 0 5px 3px white;
 }
 
